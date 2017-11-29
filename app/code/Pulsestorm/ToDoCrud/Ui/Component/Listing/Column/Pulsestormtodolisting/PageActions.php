@@ -15,13 +15,13 @@ class PageActions extends \Magento\Ui\Component\Listing\Columns\Column
                 }
                 $item[$name]["view"] = [
                     "href"=>$this->getContext()->getUrl(
-                        "pulsestorm_todo_listing/todoitem/edit",["pulsestorm_todocrud_todoitem_id"=>$id]),
+                        "adminhtml/pulsestorm_todo_listing/viewlog",["id"=>$id]),
                     "label"=>__("Edit")
                 ];
             }
         }
 
         return $dataSource;
-    }    
-    
+    }
+
 }

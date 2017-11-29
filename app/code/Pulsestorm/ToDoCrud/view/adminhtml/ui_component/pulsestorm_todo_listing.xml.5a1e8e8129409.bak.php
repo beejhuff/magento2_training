@@ -40,15 +40,6 @@
         <paging name="listing_paging"/>
     </listingToolbar>
     <columns name="pulsestorm_todo_listing_columns">
-        <column name="title">
-            <argument name="data" xsi:type="array">
-                <item name="config" xsi:type="array">
-                    <item name="filter" xsi:type="string">text</item>
-                    <item name="label" xsi:type="string" translate="true">Item Title</item>
-                    <item name="sortOrder" xsi:type="number">20</item>
-                </item>
-            </argument>
-        </column>
         <selectionsColumn name="ids">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
